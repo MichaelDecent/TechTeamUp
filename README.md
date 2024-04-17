@@ -51,14 +51,14 @@ This web application aims to provide a collaborative environment for IT enthusia
 
 4. Configure the database and other settings in the Django project's `settings.py` file.
 
-5. Run database migrations:
+5. Run database migrations:\
    `cd ../backend`\
    `python manage.py migrate`
 
-6. Start the Django development server:
+6. Start the Django development server:\
    `python manage.py runserver`
 
-7. In a separate terminal, start the Vue.js development server:
+7. In a separate terminal, start the Vue.js development server:\
    `cd ../frontend`\
    `npm run serve`
 8. Access the application at `http://localhost:8080` (or the appropriate URL provided by the Vue.js development server).
